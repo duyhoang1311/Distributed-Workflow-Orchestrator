@@ -1,0 +1,18 @@
+{
+    "environments": {
+        "dev": {
+            "api": {
+                "baseUrl": "http://localhost:3000"
+            }
+        },
+        "staging": {
+            "cloud": {
+                "provider": "encore",
+                "deploy_target": "staging"
+            },
+            "api": {
+                "baseUrl": "https://staging-api.example.com"
+            }
+        }
+    }
+} 
